@@ -13,7 +13,7 @@ Requirements
 - [Terraform](https://www.terraform.io/downloads.html) 0.10+
 - [Go](https://golang.org/doc/install) 1.12 (to build the provider plugin)
 
-Building The Provider
+Building the Provider
 ---------------------
 
 Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-aws`
@@ -30,7 +30,7 @@ $ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-aws
 $ make build
 ```
 
-Using the provider
+Using the Provider
 ----------------------
 If you're building the provider, follow the instructions to [install it as a plugin.](https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin) After placing it into your plugins directory,  run `terraform init` to initialize it. Documentation about the provider specific configuration options can be found on the [provider's website](https://www.terraform.io/docs/providers/aws/index.html).
 
@@ -47,6 +47,9 @@ $ make build
 $ $GOPATH/bin/terraform-provider-aws
 ...
 ```
+
+Testing the Provider
+---------------------------
 
 In order to test the provider, you can simply run `make test`.
 
