@@ -64,4 +64,12 @@ In order to run the full suite of Acceptance tests, run `make testacc`.
 $ make testacc
 ```
 
-If you need to add a new package in the vendor directory under `github.com/aws/aws-sdk-go`, create a separate PR handling _only_ the update of the vendor for your new requirement. Make sure to pin your dependency to a specific version, and that all versions of `github.com/aws/aws-sdk-go/*` are pinned to the same version.
+Contributing
+---------------------------
+
+Terraform is the work of thousands of contributors. We appreciate your help!
+
+To contribute, please read the contribution guidelines: [Contributing to Terraform - AWS Provider](.github/CONTRIBUTING.md)
+
+Issues on GitHub are intended to be related to bugs or feature requests with provider codebase. See https://www.terraform.io/docs/extend/community/index.html for a list of community resources to ask questions about Terraform.
+
